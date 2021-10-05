@@ -6,6 +6,6 @@ In this repository, ShadowPad samples are categorired into the following types a
 - General
   - Other samples than "Code Scattering" below and mainly used until 2020
 - Code Scattering
-  - Instructions are scattered in the binary and this type started to be used since 2020
+  - Instructions are scattered in the binary and this variant started to be used since 2020
 
 

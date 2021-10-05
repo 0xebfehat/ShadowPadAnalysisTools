@@ -4,7 +4,7 @@ The scripts in this repository were written to help ShadowPad analysis to get it
 
 ## Sample used to show this use case 
 x64 sample sha256: 8504c06360f82b01b27aa1c484455e8a6ce9c332d38fe841325521d249514bfa  
-This is dll and the following legitimate EXE is used for debugging.  
+This is dll and the following legitimate EXE can be used for debugging.  
 sha256: e5afd28ba78d772da58022ef395e0ad4a948cb8f6decf944e03fb99c2fdc099c
 
 x86 sample sha256: a77b04b1c809c837eafaa44b8457c230fdddd680c88990035439fc9ed2493804  

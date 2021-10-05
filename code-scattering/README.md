@@ -1,7 +1,7 @@
 # Code Scattering 
 ShadowPad and Its loader started to be obfucated its control flow as the following since 2020.
 
-<img src="./resources/1.png" raw=true width=500>  
+<img src="./resources/1.png" raw=true width=600>  
 
 PT security publishes the blog about this type.  
 [Higaisa or Winnti? APT41 backdoors, old and new](https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/higaisa-or-winnti-apt-41-backdoors-old-and-new/#id6)  
@@ -39,8 +39,8 @@ data:0044DF1D 3B 44 24 28       cmp     eax, [esp+4+arg_20] (target)
 ```  
 4. API deobfuscation (04_api_resolver.py)
 Search API call functions and debug automatically to get the API name with ida_dbg module. 
-While runnign the scripts, the following access violation dialogu pops up and kindly ignore.  
-<img src="./resources/2.png" raw=true width=500>  
+While runnign the scripts, an access violation dialog box like below pops up and kindly ignore.  
+<img src="./resources/2.png" raw=true width=700>  
 Once the script finishes, we need to take memory snapshot of onl loader segmetns to refelct the API name.  
 This approach consumes time and better approach needs to be considered. 
 

@@ -1,0 +1,15 @@
+GjDIzjfoZQIINefsp
+GjDIzjfoZQIINefsp
+%userprofile%\AppData\Local\Microsoft\Internet Explorer\iecoupdate.exe
+MaieService
+MaieService Cache
+Windows Internet Explorer Service for Mahsed and Feirsns broadcast reception.
+SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+Intupdate
+%windir%\system32\svchost.exe
+%ProgramFiles%\Windows Media Player\wmplayer.exe
+HTTPS[:]//101.78.177[.]244:443
+HTTP
+HTTP
+HTTP
+HTTP

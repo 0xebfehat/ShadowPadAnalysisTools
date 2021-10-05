@@ -1,0 +1,14 @@
+TxJqfRbgh3Mbbs6Zl
+TxJqfRbgh3Mbbs6Zl
+%AppData%\Microsoft\Internet Explorer\IEexport.exe
+NetTcpPortStorge
+.Net TcpPortStroge Service
+.Net TcpPortStroge Service
+SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+IExport
+%windir%\explorer.exe
+HTTPS[:]//154.223.179[.]14:443
+HTTP
+HTTP
+HTTP
+HTTP

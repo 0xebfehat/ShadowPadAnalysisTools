@@ -20,7 +20,7 @@ sha256: e4ac9f5e4ab6b324e4dbb70feff4a17351c29ebce637d39d5a5197f07dd02b18
 The x64 sample injects the code into svchost.exe  
 <img src="./resources/1.png" raw=true width=500>
 
-4. Search config moduel by byte pattern defined in shadowpad-config-module.yara (chunk1 or chunk2 for target CPU architecture)  
+4. Search config module by byte pattern defined in shadowpad-config-module.yara (chunk1 or chunk2 for target CPU architecture)  
 In this case, config module is allocated in debug016 memroy segemnt starting from 0x220000 and moduel code starts from 0x221000.
 <img src="./resources/2.png" raw=true width=500>  
 Makes codes from 0x221000 in the memory segement.　　

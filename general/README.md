@@ -14,7 +14,7 @@ sha256: e4ac9f5e4ab6b324e4dbb70feff4a17351c29ebce637d39d5a5197f07dd02b18
 
 ## Step
 
-1. Debug and Run the sample by IDA Pro Debugger
+1. Debug and Run the sample by IDA Pro Debugger 
 2. Wait until plugin modules are decrypted on the memory 
 3. If the target injects the code to other process, attach the debugger to the process  
 The x64 sample injects the code into svchost.exe  
@@ -23,8 +23,9 @@ The x64 sample injects the code into svchost.exe
 4. Search config moduel by byte pattern defined in shadowpad-config-module.yara (chunk1 or chunk2 for target CPU architecture)  
 In this case, config module is allocated in debug016 memroy segemnt starting from 0x220000 and moduel code starts from 0x221000.
 <img src="./resources/2.png" raw=true width=500>  
-Makes codes from 0x221000 in the memory segement.
-5. Debug to extract configugration blob
+Makes codes from 0x221000 in the memory segement.　　
+<br /><br />
+5. Debug to extract configugration blob  
 First, I recommend to take a snapshot of VM. I encoutner debugger stop unexpectedly during debugging here. 
 The configuration blob is extracted to allcated memory. We can trace it from the search result of Step 4.
 

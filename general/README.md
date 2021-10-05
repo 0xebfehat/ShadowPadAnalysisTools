@@ -27,7 +27,8 @@ Makes codes from 0x221000 in the memory segment.　　
 <br /><br />
 5. Debug to extract configuration blob  
 First, I recommend to take a snapshot of VM. I sometimes encoutnered debugger stopped unexpectedly during the debugging. 
-The configuration blob is extracted to allocated memory. We can trace it from the search result of Step 4.
+The configuration blob is extracted to allocated memory.  
+We can trace it from the search result of Step 4.
 
 <img src="./resources/3.png" raw=true width=500>  
 

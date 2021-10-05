@@ -48,7 +48,7 @@ Set the cursor at the addresss which is found at Step 5. (0x52FA90C) and Edit th
 
 ## Appcall 
 Appcall is one of IDA Pro's features and it enables to call funcitons inside the debugged program. Appcall is used in some scrpts in the repository.
-If you want to konwo more about Appcall, the following sites are helpful.
+If you want to know more about Appcall, the following sites are helpful.
 * [Introducing the Appcall feature in IDA Pro 5.6](https://hex-rays.com/blog/introducing-the-appcall-feature-in-ida-pro-5-6/)  
 * [Practical Appcall examples](https://hex-rays.com/blog/practical-appcall-examples/)
 * [The DGA of Zloader](https://johannesbader.ch/blog/the-dga-of-zloader/)

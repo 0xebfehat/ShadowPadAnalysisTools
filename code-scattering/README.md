@@ -41,7 +41,7 @@ data:0044DF1D 3B 44 24 28       cmp     eax, [esp+4+arg_20] (target)
 Search API call functions and debug automatically to get the API name with ida_dbg module. 
 While runnign the scripts, an access violation dialog box like below pops up and kindly ignore.  
 <img src="./resources/2.png" raw=true width=700>  
-Once the script finishes, we need to take memory snapshot of onl loader segmetns to refelct the API name.  
+Once the script finishes, we need to take memory snapshot of loader segments to refelct the API name.  
 This approach consumes time and better approach needs to be considered. 
 
 ## Ouput 

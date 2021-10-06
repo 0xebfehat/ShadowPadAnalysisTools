@@ -46,6 +46,7 @@ This approach consumes time and better approach needs to be considered.
 
 ## Ouput 
 We still need to adjust function tails and define API declarations. However we can see clearer decompile view.  
+
 <img src="./resources/3.png" raw=true width=500> 
 
 

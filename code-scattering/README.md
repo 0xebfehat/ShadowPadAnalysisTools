@@ -17,7 +17,7 @@ The scripts in this repository were written to help analysis of "Code scattering
 
 ## Step
 Note) The following steps patch the binary and I recommend to apply patches to the input file (Apply patches to input file...) and recreate the idb file in each step. I saw that the patched bytes were not reflected when I patched consecutively in one idb file.  
-This analysis approach uses Emulaiton, Unicorn Engine [Unicorn Engine](https://www.unicorn-engine.org/)
+This analysis approach uses Emulaiton, [Unicorn Engine](https://www.unicorn-engine.org/)
 
 1. Deobfuscate Code Scattering  (01_deobScatter.py)  
 Find the address of jump function which obfuscates control flow. It is 0x100025C2 in this case. Set the address in the 01_deobScatter.py. This scripts calculates the target address and changes jmp opcodes.  

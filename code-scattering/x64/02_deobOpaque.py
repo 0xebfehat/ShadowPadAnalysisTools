@@ -51,7 +51,7 @@ def main():
     print("SEARCH START SEGMENT = 0x%x" % start_ea)
     print("SEARCH END SEMENT = 0x%x" % end_ea)
     OPAQUE_PATTERN1 = "48 ?? ?? ?? ?? ?? ?? E9"
-    print("Search lea rsi loc_xxxxx [%s]" % OPAQUE_PATTERN1)
+    print("Search cmp ... jmp [%s]" % OPAQUE_PATTERN1)
     deobs_opaque_predicate(OPAQUE_PATTERN1, start_ea, end_ea)
 
 

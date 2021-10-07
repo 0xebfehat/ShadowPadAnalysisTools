@@ -37,12 +37,12 @@ data:004709AF E9 F8 38 04 00    jmp     loc_4B42AC
 [...]
 data:0044DF1D 3B 44 24 28       cmp     eax, [esp+4+arg_20] (target) 
 ```  
-4. API deobfuscation (04_api_resolver.py)
+4. API deobfuscation (04_api_resolver.py)  
 Search API call functions and debug automatically to get the API name with ida_dbg module. 
 While runnign the scripts, an access violation dialog box like below pops up and kindly ignore.  
 <img src="./resources/2.png" raw=true width=700>  
-Once the script finishes, we need to take memory snapshot of loader segments to refelct the API name.  
-This approach consumes time and better approach needs to be considered. 
+Once the script finishes, we need to take memory snapshot of loader segments to refelct the API name.<br>
+This API deobfuscation approach consumes time and better approach needs to be considered. 
 
 ## Ouput 
 We still need to adjust function tails and define API declarations. However we can see clearer decompile view.  

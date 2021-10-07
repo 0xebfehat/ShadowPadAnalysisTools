@@ -25,7 +25,7 @@ In this case, config module is allocated in debug016 memory segment starting fro
 <img src="./resources/2.png" raw=true width=500>  
 Makes codes from 0x221000 in the memory segment.　　
 <br /><br />
-5. Debug to extract configuration blob  
+5. Debug to extract configuration blob<br>
 First, I recommend to take a snapshot of VM. I sometimes encoutnered debugger stopped unexpectedly during the debugging. 
 The configuration blob is extracted to allocated memory.  
 We can trace it from the search result of Step 4.
@@ -37,7 +37,7 @@ In this case, sub_2211B4 is wrapper of localalloc and v5(variable5) stores the a
 <img src="./resources/4.png" raw=true width=500>  
 
 
-6. Decrypt config
+6. Decrypt config  
 Configuration is encrypted by same algorithm with string encryption. Now we look for string decryption function. To find string decryption function is not difficult. When we scrol up the screen from the address we found Step 4, we can see the the code pattern below. 
 
 <img src="./resources/5.png" raw=true width=500>  

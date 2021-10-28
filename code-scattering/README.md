@@ -44,7 +44,7 @@ While runnign the scripts, an access violation dialog box like below pops up and
 Once the script finishes, we need to take memory snapshot of loader segments to refelct the API name.<br>
 This API deobfuscation approach consumes time and better approach needs to be considered. 
 
-## Ouput 
+## Output 
 We still need to adjust function tails and define API declarations. However we can see clearer decompile view.  
 
 <img src="./resources/3.png" raw=true width=500> 
